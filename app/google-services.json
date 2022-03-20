@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "571607685188",
+    "project_id": "tasksly",
+    "storage_bucket": "tasksly.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571607685188:android:227243e082f7e953ad4411",
+        "android_client_info": {
+          "package_name": "com.Tasksly.tasksly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571607685188-955aef4ntg712uq8j41oqa6b7l7b6a3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUqS7AouCxj_ydkvaomSfneMHGxg4wvck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571607685188-955aef4ntg712uq8j41oqa6b7l7b6a3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

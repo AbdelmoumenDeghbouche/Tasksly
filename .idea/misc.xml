@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.182" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/card_view_style_3.xml" value="0.2045" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/cardview_style.xml" value="0.4" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/cardview_style2.xml" value="0.185" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/ic_add.xml" value="0.2045" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/ic_add_actegory.xml" value="0.1" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/ic_alarm.xml" value="0.2045" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1845" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/ic_check_box_oval.xml" value="0.2045" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/ic_check_box_oval_not_checked.xml" value="0.1" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/ic_color_resources.xml" value="0.118" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/ic_home.xml" value="0.2045" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/ic_launcher_background.xml" value="0.182" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/ic_profile_pic_background.xml" value="0.182" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/ic_settings.xml" value="0.2045" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/image_shape.xml" value="0.182" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/drawable/lay_bg_gray2.xml" value="0.2045" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/layout/activity_home_page.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/layout/activity_main.xml" value="0.2986111111111111" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/layout/activity_page7.xml" value="0.4" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/layout/add_category_view.xml" value="0.4" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/layout/category_item_mdoel.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/layout/category_item_recycler_view.xml" value="0.4742647058823529" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/layout/fragment1_layout.xml" value="0.536" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/layout/fragment2_layout.xml" value="0.264" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/layout/task_recycler_view.xml" value="0.264" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/menu/menu_app_bar_buttom.xml" value="0.25" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/mipmap-anydpi-v26/ic_profile_pic.xml" value="0.182" />
+        <entry key="..\:/Users/Minou/AndroidStudioProjects/Tasksly/app/src/main/res/mipmap-anydpi-v26/ic_profile_pic_round.xml" value="0.182" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

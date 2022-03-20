@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="txt_task_description_color">#605971</color>
+    <color name="txt_time_of_task_color">#756F84</color>
+</resources>

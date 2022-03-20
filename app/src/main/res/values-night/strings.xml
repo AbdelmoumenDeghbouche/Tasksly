@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="HelloUser">Hello,</string>
+    <string name="Name_of_the_user">Abdelmoumen</string>
+    <string name="Tasks_txt">Tasks</string>
+    <string name="time_of_the_task">02:30 PM - 03:45 PM</string>
+    <string name="description_of_the_task">All illustration design should be handover to Smith today for review.</string>
+</resources>

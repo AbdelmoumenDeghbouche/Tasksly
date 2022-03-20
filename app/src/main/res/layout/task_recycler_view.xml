@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_layout_of_task_item"
+    android:layout_width="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardElevation="0dp">
+
+    <RelativeLayout
+        android:id="@+id/parent_relative_layout_of_task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+
+        android:background="@drawable/cardview_style">
+
+
+        <TextView
+            android:id="@+id/txt_task_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/card_view_show_date_of_task"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/text_task_name"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+
+        <RelativeLayout
+            android:id="@+id/relative_layput_time_and_clock_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_task_name"
+            android:layout_alignStart="@+id/txt_task_name"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/img_view_clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/ic_alarm" />
+
+            <TextView
+                android:id="@+id/txt_time_of_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/img_view_clock"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="@string/time_of_the_task"
+                android:textColor="@color/txt_time_of_task_color"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/img_view_check_box_oval_not_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="44dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/ic_check_box_oval_not_checked" />
+
+        <ImageView
+            android:id="@+id/img_view_check_box_oval_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="44dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/ic_check_box_oval"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_description_of_task"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative_layput_time_and_clock_img"
+            android:layout_alignStart="@+id/relative_layput_time_and_clock_img"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="@string/description_of_the_task"
+            android:textColor="@color/txt_task_description_color"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

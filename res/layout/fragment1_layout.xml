@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/txt_hello_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="37dp"
+        android:alpha=".5"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Hello,"
+        android:textColor="#1D1235"
+        android:textSize="28dp" />
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="60dp"
+        app:cardCornerRadius="16dp">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_profile_pic" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <TextView
+        android:id="@+id/txt_name_of_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hello_name"
+        android:layout_alignStart="@+id/txt_hello_name"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Abdelmoumen"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/category_recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name_of_client"
+        android:layout_alignStart="@+id/txt_name_of_client"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</RelativeLayout>
